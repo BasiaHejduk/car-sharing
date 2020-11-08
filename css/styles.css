@@ -23,8 +23,56 @@ header {
     justify-content: space-between;
 }
 
-.logo {
+.logo-header {
     width: 200px;
     height: 50px;
     background: black;
+}
+
+.blog {
+    width: 100%;
+    height: 400px;
+    background: lightpink;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes {
+    display: flex;
+}
+
+.box-blog {
+    width: 352px;
+    height: 300px;
+    background: gray;
+}
+
+.service {
+    width: 100%;
+    height: 400px;
+    background: lightseagreen;
+}
+
+.box-service {
+    width: 170px;
+    height: 300px;
+    background: lightsteelblue;
+}
+
+.contact {
+    width: 100%;
+    height: 400px;
+    background: lightyellow;
+}
+
+.box-contact {
+    width: 444px;
+    height: 300px;
+    background: mediumpurple;
+}
+
+footer {
+    width: 100%;
+    height: 15opx;
+    background: lightgreen;
 }
