@@ -79,7 +79,6 @@ nav ul li {
 
 .highlight:hover {
     background: #FFFFFF33;
-    /* opacity: 100%; */
 }
 
 .slogan {
@@ -362,7 +361,7 @@ textarea {
 
 .permission {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     /* justify-content: flex-start; */
     /* align-items: flex-start; */
 }
