@@ -365,11 +365,24 @@ textarea {
 }
 
 input[type="checkbox"] {
-    width: 15px;
-    height: 15px;
+    opacity: 1;
+    position: absolute;
+    left: -999999px;
+}
+
+.permission span {
+    width: 22px;
+    height: 22px;
     border: 1px solid #D1D1D1;
     border-radius: 8px;
     margin-right: 10px;
+}
+
+input[type="checkbox"]:checked + span {
+    background: url(../images/Icon\ Check.svg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 label[for="chk"] {
